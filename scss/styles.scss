@@ -1,0 +1,26 @@
+body{
+    background: url(../images/back.png) fixed center;
+    .pic-joke{
+        margin-top: 15% ;
+        .cont-pic{
+            height: 250px;
+            margin-bottom: 15px;
+            .rnd-img{
+              height: 100%;
+            }
+        }
+        .rnd-joke{
+            border: 2px solid #000;
+            min-height: 250px;
+            margin-bottom: 15px;
+            p{
+                font-size: 32px;
+                margin: auto 0;
+                color : #000
+            }
+        }
+    }
+    .btn-joke{
+        margin-left: 50%;
+    }
+}

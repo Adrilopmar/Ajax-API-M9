@@ -1,0 +1,21 @@
+body {
+  background: url(../images/back.png) fixed center; }
+  body .pic-joke {
+    margin-top: 15%; }
+    body .pic-joke .cont-pic {
+      height: 250px;
+      margin-bottom: 15px; }
+      body .pic-joke .cont-pic .rnd-img {
+        height: 100%; }
+    body .pic-joke .rnd-joke {
+      border: 2px solid #000;
+      min-height: 250px;
+      margin-bottom: 15px; }
+      body .pic-joke .rnd-joke p {
+        font-size: 32px;
+        margin: auto 0;
+        color: #000; }
+  body .btn-joke {
+    margin-left: 50%; }
+
+/*# sourceMappingURL=styles.css.map */
