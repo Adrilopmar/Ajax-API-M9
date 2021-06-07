@@ -4,7 +4,7 @@ for(let i=1; i<11;i++){
     var pic = 'img-'+i+'.png'
     pics.push(pic)
 }
-async function getISS() {
+async function newJokeImg() {
     const response = await fetch(api_url);
     const data = await response.json();
     const jokes = data;
@@ -15,9 +15,9 @@ async function getISS() {
     $('#picture').append('<img class="rnd-img" src="images/'+pics[RNG]+'"/>')
   }
   $(document).ready( function(){ 
-    getISS();
+    newJokeImg();
     $('#boto').click(function(e){
         e.preventDefault();
-        getISS();   
+        newJokeImg();   
     });
   });
